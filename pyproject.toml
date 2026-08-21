@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "simple-gravity-simulation"
 dynamic = ["version"]
-description = "A simple 2D Python simulation of gravitational interactions."
+description = "A simple 2D Python simulation of N-body gravitational interactions."
 readme = "README.md"
 requires-python = ">=3.12"
 license = { file = "LICENSE" }
@@ -32,7 +32,6 @@ classifiers = [
 
 dependencies = [
     "pygame",
-    "pymunk",
     "platformdirs",
 ]
 

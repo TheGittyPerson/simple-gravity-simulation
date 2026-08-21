@@ -1,10 +1,10 @@
-# Simple Gravity Simulation <sub><sup>(v1.0.0)</sup></sub>
+# Simple Gravity Simulation <sub><sup>(v0.1.0)</sup></sub>
 
-A simple 2D Python simulation of gravitational interactions using `pymunk`
+A simple 2D Python simulation of N-body gravitational interactions.
 
 - Simple UI and easy to use and install
-- Uses `pygame` for UI and `pymunk` for physics framework
-- Lightweight
+- Uses `pygame` for the UI
+- Open-source! 🌐
 
 ---
 
