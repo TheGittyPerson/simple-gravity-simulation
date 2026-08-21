@@ -33,6 +33,7 @@ classifiers = [
 dependencies = [
     "pygame",
     "pymunk",
+    "platformdirs",
 ]
 
 [project.urls]
