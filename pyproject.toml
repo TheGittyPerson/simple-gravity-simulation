@@ -3,22 +3,26 @@ requires = ["setuptools>=82.0.1", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "template"
+name = "simple-gravity-simulation"
 dynamic = ["version"]
-description = "This is a Python app template repo for me to use."
+description = "A simple 2D Python simulation of gravitational interactions."
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 license = { file = "LICENSE" }
-authors = [ { name = "Morpheus" } ]
+authors = [
+    { name = "Morpheus"},
+]
 classifiers = [
     "Intended Audience :: Education",
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
     "Topic :: Education",
     "Topic :: Games/Entertainment :: Simulation",
     "Topic :: Scientific/Engineering",
-    "Topic :: Scientific/Engineering :: Artificial Life",
     "Topic :: Scientific/Engineering :: Mathematics",
     "Topic :: Scientific/Engineering :: Visualization",
     "Operating System :: POSIX :: Linux",
@@ -27,21 +31,19 @@ classifiers = [
 ]
 
 dependencies = [
-
+    "pygame",
+    "pymunk",
 ]
 
 [project.urls]
-"Source" = "https://github.com/TheGittyPerson/template-repo"
-"Bug Reports" = "https://github.com/TheGittyPerson/template-repo/issues"
+"Source" = "https://github.com/TheGittyPerson/simple-gravity-simulator"
+"Bug Reports" = "https://github.com/TheGittyPerson/simple-gravity-simulator/issues"
 
 [project.scripts]
-template = "template.__main__:main"
+gravity-sim = "gravity_sim.__main__:main"
 
 [tool.setuptools]
-packages = ["template"]
-
-#[tool.setuptools.package-data]
-#template = ["assets/*", "assets/**/*"]
+packages = ["gravity_sim"]
 
 [tool.setuptools.dynamic]
-version = { attr = "template.__version__" }
+version = { attr = "gravity_sim.__version__" }

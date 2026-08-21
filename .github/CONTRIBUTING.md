@@ -1,6 +1,6 @@
 # Contributing to this project
 
-###### How to Contribute to the _Template Repo_ Repository
+###### How to Contribute to the _Simple Gravity Simulation_ Repository
 
 ## 👋 Greetings!
 
@@ -57,9 +57,6 @@ ones.
 **We highly recommend [opening an issue][issues]** before creating a 
 pull request. This is to ensure all changes are discussed properly (and you 
 don't waste your time creating a PR that ends up getting closed). 
-
-This is also to prevent automatically-generated pull requests created by 
-automated bot accounts with minimal human insight.
 
 ### Reporting Bugs
 

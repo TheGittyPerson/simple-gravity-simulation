@@ -1,12 +1,10 @@
-# Template Repo <sub><sup>(v1.0.0)</sup></sub>
+# Simple Gravity Simulation <sub><sup>(v1.0.0)</sup></sub>
 
-This is a Python app template repo for me to use.
+A simple 2D Python simulation of gravitational interactions using `pymunk`
 
-- Very beautiful template
-- Easy to use
-- Maximum tea guaranteed
-
-> By [_Morpheus_](https://github.com/TheGittyPerson)
+- Simple UI and easy to use and install
+- Uses `pygame` for UI and `pymunk` for physics framework
+- Lightweight
 
 ---
 
@@ -20,7 +18,7 @@ This is a Python app template repo for me to use.
 ### Installation
 
 ```shell
-pipx install git+https://github.com/TheGittyPerson/template-repo.git
+pipx install git+https://github.com/TheGittyPerson/simple-gravity-simulation.git
 ```
 
 ### Usage
@@ -28,13 +26,13 @@ pipx install git+https://github.com/TheGittyPerson/template-repo.git
 To run:
 
 ```shell
-template
+gravity_sim
 ```
 
 ### Uninstall
 
 ```shell
-pipx uninstall template
+pipx uninstall gravity_sim
 ```
 
 ---
@@ -50,6 +48,5 @@ information.
 
 This project is licensed under the [MIT License](LICENSE.txt).
 
-[releases]: https://github.com/TheGittyPerson/template-repo
-[repo page]: https://github.com/TheGittyPerson/template-repo
+[repo page]: https://github.com/TheGittyPerson/simple-gravity-simulation
 [this gist]: https://gist.github.com/ashkanfeyzollahi/7bbf36fb876a3781efbbb3ef841b5f4e
