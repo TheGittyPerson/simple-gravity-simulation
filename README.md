@@ -4,7 +4,7 @@ A simple 2D Python simulation of N-body gravitational interactions.
 
 - Simple UI and easy to use and install
 - Uses `pygame` for the UI
-- Open-source! 🌐
+- Open-source! 🌐 Everyone is welcome to [contribute](.github/CONTRIBUTING.md)
 
 ---
 
@@ -26,13 +26,13 @@ pipx install git+https://github.com/TheGittyPerson/simple-gravity-simulation.git
 To run:
 
 ```shell
-gravity_sim
+gravity-sim
 ```
 
 ### Uninstall
 
 ```shell
-pipx uninstall gravity_sim
+pipx uninstall gravity-sim
 ```
 
 ---
