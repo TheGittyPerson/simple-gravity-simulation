@@ -6,8 +6,8 @@ import pygame
 class Simulation:
     """Central class to run the simulation."""
 
-    def __init__(self) -> None:
-        ...
+    def __init__(self):
+        pygame.init()
 
     def run(self) -> None:
         ...
