@@ -140,7 +140,7 @@ GitHub, here are some links with information that might help:
 [^ TOC](#table-of-contents)
 
 
-[repo]: https://github.com/TheGittyPerson/template-repo
-[issues]: https://github.com/TheGittyPerson/template-repo/issues
-[pull requests]: https://github.com/TheGittyPerson/template-repo/pulls
+[repo]: https://github.com/TheGittyPerson/simple-gravity-simulation
+[issues]: https://github.com/TheGittyPerson/simple-gravity-simulation/issues
+[pull requests]: https://github.com/TheGittyPerson/simple-gravity-simulation/pulls
 [pep 8]: https://peps.python.org/pep-0008/
